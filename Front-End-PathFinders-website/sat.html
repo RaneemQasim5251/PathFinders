@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Satellite</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">PathFinders.</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search ..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/Space4.png" class="image" alt="">
+         <h3 class="name">Aastronomer</h3>
+         <p class="role">student</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/Space4.png" class="image" alt="">
+      <h3 class="name">Aastronomer</h3>
+      <p class="role">astronomer</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+    <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+    <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+    <a href="eye.html"><i class="fa-solid fa-vr-cardboard"></i><span>VR Space</span></a>
+    <a href="sat.html"><i class="fas fa-satellite"></i><span>predict Satellite path</span></a>
+    <a href="where.html"><i class="fa-solid fa-earth-asia"></i><span>where exactly?</span></a>
+ </nav>
+
+</div>
+    <h1>Enter Satellite Coordinates</h1>
+
+    <form id="coordinatesForm">
+        <label for="tle1"><h2>TLE Line 1:</h2></label>
+        <input type="text" id="tle1" required><br><br>
+
+        <label for="tle2"><h2>TLE Line 2:</h2></label>
+        <input type="text" id="tle2" required><br><br>
+
+        <label for="tle3"><h2>TLE Line 3:</h2></label>
+        <input type="text" id="tle3" required><br><br>
+
+
+        <button type="button" onclick="displayImage()">Predict</button>
+    </form>
+
+
+    <div id="imageContainer" style="display: none;">
+        <img src="images/Screenshot 2023-11-04 130648.png" alt="predict"onclick="showAlert()">
+    </div>
+
+    <script>
+        function displayImage() {
+            const tle1 = document.getElementById("tle1").value;
+            const tle2 = document.getElementById("tle2").value;
+            const tle3 = document.getElementById("tle3").value;
+            
+            // Here, you can use the TLE data to fetch or generate an image.
+
+            // For this example, we're simply showing a hidden image.
+            document.getElementById("imageContainer").style.display = "block";
+        }
+    </script>
+
+    
+    <script>
+        function showAlert() {
+            var alertText = "IRIDIUM 33 DEB\nNORAD ID: 4086\nCollision Prediction: 0.1753%";
+            alert(alertText);
+        }
+    </script>
+
+
+    <!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+

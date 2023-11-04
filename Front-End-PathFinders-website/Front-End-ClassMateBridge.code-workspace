@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"name": "desgin",
+			"path": "desgin"
+		},
+		{
+			"name": "node_modules",
+			"path": "../Downloads/Sign-Language-Translator-newclassifier/Sign-Language-Translator-newclassifier/node_modules"
+		},
+		{
+			"name": "Design2",
+			"path": "../Downloads/Sign-Language-Translator-newclassifier/Sign-Language-Translator-newclassifier/Design2"
+		},
+		{
+			"name": "dist",
+			"path": "../Downloads/Sign-Language-Translator-newclassifier/Sign-Language-Translator-newclassifier/dist"
+		},
+		{
+			"name": "Configuration",
+			"path": "../Downloads/Sign-Language-Translator-newclassifier/Sign-Language-Translator-newclassifier/Design/Configuration"
+		},
+		{
+			"name": "Logos",
+			"path": "../Downloads/Sign-Language-Translator-newclassifier/Sign-Language-Translator-newclassifier/Design/Logos"
+		},
+		{
+			"name": "Train",
+			"path": "../Downloads/Sign-Language-Translator-newclassifier/Sign-Language-Translator-newclassifier/Design/Train"
+		},
+		{
+			"name": "Translation",
+			"path": "../Downloads/Sign-Language-Translator-newclassifier/Sign-Language-Translator-newclassifier/Design/Translation"
+		},
+		{
+			"name": "Welcome",
+			"path": "../Downloads/Sign-Language-Translator-newclassifier/Sign-Language-Translator-newclassifier/Design/Welcome"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "desgin",
+		"liveServer.settings.port": 5503
+	}
+}

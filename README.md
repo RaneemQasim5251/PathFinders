@@ -7,4 +7,7 @@ https://github.com/RaneemQasim5251/PathFinders/assets/108181104/c8f24ec7-b802-45
 
 https://github.com/RaneemQasim5251/PathFinders/assets/108181104/4a3fa708-e361-4b65-af2a-0729650f5c04
 
+Satellite movement
+
+https://github.com/RaneemQasim5251/PathFinders/assets/108181104/e0245a78-0e30-434c-8542-d7296b94a37b
 

@@ -1,5 +1,30 @@
-# PathFinders
+![WhatsApp Image 2023-11-05 at 22 53 23_80cd1588](https://github.com/RaneemQasim5251/PathFinders/assets/108181104/17cd1b37-3d99-40af-8b2e-f9048ce6b433)![Space_debris_GIF](https://github.com/RaneemQasim5251/PathFinders/assets/108181104/9143eeaa-554e-41f3-b551-4a44b1716c0f)# PathFinders
 Our model aims to predict the paths most at risk of collision with debris to avoid them.
+
+# Background
+Since the first satellite deployment in 1958 with  Sputnik 1 , the rate of deployment has increased significantly. Today, more than 500 satellites are deployed annually, and this figure is expected to increase by 140% by 2025. Currently, there are over 12,000 satellites orbiting Earth; 4,900 of which are active. SpaceX's long-term plan is to launch more than  42,000 Starlink satellites , and other companies will follow suit. One issue standing in the way of this future is the extensive collection of space debris that circles the Earth at speeds in excess of 15,000 miles per hour. Collisions between orbiting bodies have obvious negative effects on infrastructure on Earth, but it has even larger consequences that could prevent humanity from ever venturing into space again.
+
+# Kessler Syndrome
+When a satellite collides with space debris, it doesn't slow down and fall back to Earth. Because there is no downward acceleration, collisions cause satellites to fragment into smaller pieces that travel even faster due to the  law of conservation of momentum . These fragments can then collide with more space debris creating more fragments. This exponential collision cascade is known as  Kessler Syndrome . It is currently estimated that there are  10,000 pieces of space debris the size of a monitor, 20,000 pieces the size of a baseball, 500,000 pieces the size of a marble, and over 100,000,000 pieces too small to be tracked.
+![shakti](https://github.com/RaneemQasim5251/PathFinders/assets/108181104/3fb7fbb9-09d1-41ba-92f7-f3cea18bfac4)
+*Graphical representation of Kessler Syndrome (USRadioguy.com, 2021).*
+
+![Space_debris_GIF](https://github.com/RaneemQasim5251/PathFinders/assets/108181104/107adf28-4dd8-430d-8ccc-f8eda86ce6e9)
+*Animation of a simulated satellite collision (ESA, 2018).*
+
+# Data Collection
+Information about an orbiting body is encoded in a data structure called a  two-line element set (TLE) https://en.wikipedia.org/wiki/Two-line_element_set . This allows the state of an orbiting object to be accurately estimated given a time. 
+The accuracy of this estimate decreases as the time deviates further away from the time at measurement, so TLE sets are regularly updated by the  North American Aerospace Defense Command (NORAD) 
+https://www.norad.mil/ . 
+For this project, TLE sets for various Low Earth Orbit satellites and debris were collected from Space-Track https://www.space-track.org/auth/login .
+
+# Example TLE Set for the International Space Station
+1 25544U 98067A   22114.04856634 -.00018585  00000+0 -32241-3 0  9999
+2 25544  51.6451 244.7068 0005474  27.5066 137.6918 15.49633709336780
+
+# Converting TLE to Geodetic Coordinates
+Once the orbit attributes are decoded from a TLE set, further steps are required to obtain the latitude, longitude, and altitude values. There are many different models used to estimate the location of an orbiting body with a TLE set. Since this project is analyzing debris in Low Earth Orit, the  SGP4  model was used instead of SDP4, which is used for deep-space satellites.
+![WhatsApp Image 2023-11-05 at 22 53 23_80cd1588](https://github.com/RaneemQasim5251/PathFinders/assets/108181104/182bfe20-e6e2-44bc-b91c-fe023e49fc2e)
 
 # Python version:
 

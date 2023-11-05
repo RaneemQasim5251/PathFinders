@@ -6,10 +6,20 @@ Since the first satellite deployment in 1958 with  Sputnik 1 , the rate of deplo
 
 # Kessler Syndrome
 When a satellite collides with space debris, it doesn't slow down and fall back to Earth. Because there is no downward acceleration, collisions cause satellites to fragment into smaller pieces that travel even faster due to the  law of conservation of momentum . These fragments can then collide with more space debris creating more fragments. This exponential collision cascade is known as  Kessler Syndrome . It is currently estimated that there are  10,000 pieces of space debris the size of a monitor, 20,000 pieces the size of a baseball, 500,000 pieces the size of a marble, and over 100,000,000 pieces too small to be tracked.
+
+
 ![shakti](https://github.com/RaneemQasim5251/PathFinders/assets/108181104/3fb7fbb9-09d1-41ba-92f7-f3cea18bfac4)
+
+
+
 *Graphical representation of Kessler Syndrome (USRadioguy.com, 2021).*
 
+
+
 ![Space_debris_GIF](https://github.com/RaneemQasim5251/PathFinders/assets/108181104/107adf28-4dd8-430d-8ccc-f8eda86ce6e9)
+
+
+
 *Animation of a simulated satellite collision (ESA, 2018).*
 
 # Data Collection

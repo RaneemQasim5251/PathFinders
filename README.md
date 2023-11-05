@@ -16,7 +16,7 @@ https://github.com/RaneemQasim5251/PathFinders/assets/108181104/e0245a78-0e30-43
 3.9
 
 # Python packages:
-Jinja2	3.1.2	3.1.2
+Jinja2	3.1.2	3.1.2 /n
 MarkupSafe	2.1.3	2.1.3
 blinker	1.7.0	1.7.0
 click	8.1.7	8.1.7

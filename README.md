@@ -1,15 +1,5 @@
 # PathFinders
-our model aims to predict the paths most at risk of collision with debris in order to avoid them.
-
-
-https://github.com/RaneemQasim5251/PathFinders/assets/108181104/c8f24ec7-b802-455d-b9db-9e78c1e4ccfb
-
-
-https://github.com/RaneemQasim5251/PathFinders/assets/108181104/4a3fa708-e361-4b65-af2a-0729650f5c04
-
-# Satellite movement
-
-https://github.com/RaneemQasim5251/PathFinders/assets/108181104/e0245a78-0e30-434c-8542-d7296b94a37b
+Our model aims to predict the paths most at risk of collision with debris to avoid them.
 
 # Python version:
 
@@ -30,3 +20,15 @@ setuptools	57.0.0 |
 werkzeug	3.0.1 |
 wheel	0.36.2	|
 zipp	3.17.0	
+
+# Website
+https://github.com/RaneemQasim5251/PathFinders/assets/108181104/c8f24ec7-b802-455d-b9db-9e78c1e4ccfb
+
+
+https://github.com/RaneemQasim5251/PathFinders/assets/108181104/4a3fa708-e361-4b65-af2a-0729650f5c04
+
+# Satellite movement
+
+https://github.com/RaneemQasim5251/PathFinders/assets/108181104/e0245a78-0e30-434c-8542-d7296b94a37b
+
+

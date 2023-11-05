@@ -1,4 +1,4 @@
-![WhatsApp Image 2023-11-05 at 22 53 23_80cd1588](https://github.com/RaneemQasim5251/PathFinders/assets/108181104/17cd1b37-3d99-40af-8b2e-f9048ce6b433)![Space_debris_GIF](https://github.com/RaneemQasim5251/PathFinders/assets/108181104/9143eeaa-554e-41f3-b551-4a44b1716c0f)# PathFinders
+# PathFinders
 Our model aims to predict the paths most at risk of collision with debris to avoid them.
 
 # Background

@@ -21,11 +21,10 @@ werkzeug	3.0.1 |
 wheel	0.36.2	|
 zipp	3.17.0	
 
-# Website
+# Website URL
 https://raneemqasim5251.github.io/Front-End-PathFinders-website/
-https://github.com/RaneemQasim5251/PathFinders/assets/108181104/c8f24ec7-b802-455d-b9db-9e78c1e4ccfb
 
-
+# Website Video
 https://github.com/RaneemQasim5251/PathFinders/assets/108181104/4a3fa708-e361-4b65-af2a-0729650f5c04
 
 # Satellite movement

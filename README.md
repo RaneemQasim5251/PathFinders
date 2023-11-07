@@ -40,6 +40,17 @@ Once the orbit attributes are decoded from a TLE set, further steps are required
 
 3.9
 
+# Getting started
+install packages via pip:
+
+```bash
+pip install flask	
+```
+
+```bash
+pip install pyproject	
+```
+
 # Python packages:
 Jinja2	3.1.2 |
 MarkupSafe	2.1.3 |
@@ -49,7 +60,7 @@ colorama	0.4.6	|
 flask	3.0.0 |
 importlib-metadata	6.8.0	|
 itsdangerous	2.1.2	|
-pip	21.1.2	23.3.1 |
+pip	21.1.2 |
 pyproject	1.3.1 |
 setuptools	57.0.0 |
 werkzeug	3.0.1 |

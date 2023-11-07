@@ -56,8 +56,15 @@ werkzeug	3.0.1 |
 wheel	0.36.2	|
 zipp	3.17.0	
 
-# Getting started
-install packages via pip:
+# Install packages
+*Note: We used PyCharm IDE for this project*
+**How do I install packages in PyCharm?**
+1- Click the button on the package toolbar.
+2- In the Available Packages dialog that opens, preview the list of the available packages and type the name of the package to install in the Search field.
+3- If required, select the following checkboxes: ...
+4- Select the target package and click Install Package.
+
+You can also install the two main packages via pip: 
 
 ```bash
 pip install flask	

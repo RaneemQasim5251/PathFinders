@@ -58,7 +58,7 @@ zipp	3.17.0
 
 # Install packages
 *Note: We used PyCharm IDE for this project*
-**How do I install packages in PyCharm?**
+**How do I install packages in PyCharm?** <br />
 1- Click the button on the package toolbar. <br />
 2- In the Available Packages dialog that opens, preview the list of the available packages and type the name of the package to install in the Search field. <br />
 3- If required, select the following checkboxes: ... <br />

@@ -40,17 +40,6 @@ Once the orbit attributes are decoded from a TLE set, further steps are required
 
 3.9
 
-# Getting started
-install packages via pip:
-
-```bash
-pip install flask	
-```
-
-```bash
-pip install pyproject	
-```
-
 # Python packages:
 Jinja2	3.1.2 |
 MarkupSafe	2.1.3 |
@@ -66,6 +55,17 @@ setuptools	57.0.0 |
 werkzeug	3.0.1 |
 wheel	0.36.2	|
 zipp	3.17.0	
+
+# Getting started
+install packages via pip:
+
+```bash
+pip install flask	
+```
+
+```bash
+pip install pyproject	
+```
 
 # Website URL
 https://raneemqasim5251.github.io/Front-End-PathFinders-website/
